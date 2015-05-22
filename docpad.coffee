@@ -102,6 +102,10 @@ docpadConfig = {
     # Plugins
 
     plugins:
+        ghpages:
+            deployRemote: 'target'
+            deployBranch: 'master'
+
         downloader:
             downloads: [
                 {
@@ -111,10 +115,6 @@ docpadConfig = {
                     tarExtractClean: true
                 }
             ]
-
-    ghpages:
-        deployRemote: 'target'
-        deployBranch: 'master'
 
     # =================================
     # DocPad Events
